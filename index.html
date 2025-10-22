@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michał Jędruch | Full Stack Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- NAVBAR -->
+  <nav class="fixed w-full bg-white/90 backdrop-blur-md shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center px-6 py-3">
+      <h1 class="text-xl font-bold text-blue-800">Michał Jędruch</h1>
+      <ul class="flex space-x-6 text-gray-700 font-medium">
+        <li><a href="#about" class="hover:text-blue-700">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-700">Skills</a></li>
+        <li><a href="#experience" class="hover:text-blue-700">Experience</a></li>
+        <li><a href="#education" class="hover:text-blue-700">Education</a></li>
+        <li><a href="#certs" class="hover:text-blue-700">Certs</a></li>
+        <li><a href="#contact" class="hover:text-blue-700">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-blue-800 to-black text-white text-center px-6">
+    <h2 class="text-5xl font-bold mb-4">Michał Jędruch</h2>
+    <p class="text-lg mb-6">Full Stack Developer | Team Leader | Software Architect</p>
+    <a href="#about" class="bg-white text-blue-800 font-semibold px-6 py-3 rounded-xl hover:bg-blue-100 transition">
+      View Profile
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20 container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-blue-800 mb-6 border-b-2 border-blue-700 inline-block">About Me</h2>
+    <p class="max-w-3xl text-gray-700 leading-relaxed">
+      I’m a full stack developer with over 15 years of experience, including 5 years in team and project management.
+      I focus on delivering scalable and well-architected software solutions, leading development teams,
+      and managing full product lifecycles. Passionate about .NET technologies, architecture, and clean code principles.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-800 mb-6 border-b-2 border-blue-700 inline-block">Core Skills</h2>
+      <div class="grid md:grid-cols-2 gap-6 text-gray-700">
+        <ul class="list-disc list-inside space-y-1">
+          <li>.NET (MVC, WebApi2, WPF, .NET Core)</li>
+          <li>C#, Architecture & Design Patterns</li>
+          <li>SQL (MSSQL, Postgres, Oracle – PL/SQL)</li>
+          <li>Technical Leading, Team Management</li>
+          <li>Azure, DevOps, CI/CD</li>
+        </ul>
+        <ul class="list-disc list-inside space-y-1">
+          <li>JavaScript (HTML, CSS)</li>
+          <li>React + Redux, Angular</li>
+          <li>Kafka, RabbitMQ, Microservices</li>
+          <li>Docker, Kubernetes, ArgoCD</li>
+          <li>JIRA, GitHub, Scrum, DDD, CQRS</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-800 mb-8 border-b-2 border-blue-700 inline-block">Professional Experience</h2>
+      <div class="space-y-8 text-gray-700">
+
+        <div>
+          <h3 class="font-bold text-lg">Full Stack Developer – DXC (Apr 2024 – Present)</h3>
+          <p class="italic text-gray-600 mb-2">Remote, Poland</p>
+          <ul class="list-disc list-inside">
+            <li>Developing and releasing microservice solution for Danish government sector related to loans and property.</li>
+            <li>Using .NET Core 8, REST API, SQL Server, EF Core (CQRS), React + Redux (TypeScript).</li>
+            <li>DDD, SOLID, Mediator pattern, Kafka broker, xUnit, Docker CI/CD, Kubernetes + ArgoCD (GitOps), Azure AKS.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg">Senior .NET Engineer – StoneX (Jul 2023 – Apr 2024)</h3>
+          <ul class="list-disc list-inside">
+            <li>Maintained stock market application for brokers with real-time data binding (~100k data points).</li>
+            <li>Tech: .NET Core, WPF (MVVMCross), C++/CLI, SQL Lite, ElasticSearch + Kibana, DevOps, Scrum.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg">Senior Software Engineer – cShark (May 2022 – Jun 2023)</h3>
+          <ul class="list-disc list-inside">
+            <li>Worked on Motorola hardware communication software for message servers over binary protocols.</li>
+            <li>Tech: C#, .NET Core, SQLite + EF, GraphQL, Angular 15, RabbitMQ, NUnit, Moq, GO, GitHub.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg">Senior Software Engineer – Alstom (Jan 2021 – Apr 2022)</h3>
+          <ul class="list-disc list-inside">
+            <li>Part of international team developing TMS railway system using WPF (MVVM Light), ASP.NET Razor, Kafka.</li>
+            <li>Responsible for product maintenance, bug fixes, and team management (10 members).</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg">Software Architect – Bombardier Transportation (Nov 2017 – Dec 2020)</h3>
+          <ul class="list-disc list-inside">
+            <li>Created complex automation solution for testing onboard rail systems using .NET Core, REST API, Angular.</li>
+            <li>Implemented Docker, Azure pipelines, RabbitMQ, CI/CD, ERTMS/ETCS domain knowledge.</li>
+            <li>Led 15-person team (developers, testers, analysts, UX).</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg">Technical Leader – Sii Poland (Oct 2015 – Oct 2017)</h3>
+          <ul class="list-disc list-inside">
+            <li>Led software team for Bombardier onboard systems using .NET and xUnit.</li>
+            <li>Designed architecture and provided technical interviews and .NET training for Sii Poland engineers.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg">Senior Software Engineer – Sii Poland (Dec 2013 – Sep 2015)</h3>
+          <ul class="list-disc list-inside">
+            <li>Worked on railway communication libraries between EBI Screen 300 and EBI Lock systems.</li>
+            <li>Tech: .NET (C#), WPF, WCF, UDP/TCP, Linux, TDD.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg">Software Engineer – Open Sky Data Systems (Apr 2013 – Nov 2013)</h3>
+          <ul class="list-disc list-inside">
+            <li>Developed web-based Planning applications for city councils (Cork Council client).</li>
+            <li>Tech: ASP.NET, C#, Entity Framework, DevExpress, T-SQL, SQL Server 2008.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg">Software Developer – Ebicom (Aug 2010 – Apr 2013)</h3>
+          <ul class="list-disc list-inside">
+            <li>Designed CRM and ERP solutions for energy sector using ASP.NET MVC 4, nHibernate, DevExpress.</li>
+            <li>Worked with SQL Server 2008, T-SQL, HTML5, CSS3, jQuery, Visual Studio 2012.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-lg">Junior Software Developer – Vega IT Studio (Aug 2009 – Jul 2010)</h3>
+          <ul class="list-disc list-inside">
+            <li>Created database and UI solutions using WinForms and ASP.NET, LINQ, Telerik, Infragistic controls.</li>
+            <li>Tech: C#, ADO.NET, SQL Server 2005/2008, Visual Studio 2008.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="py-20 container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-blue-800 mb-6 border-b-2 border-blue-700 inline-block">Education</h2>
+    <ul class="list-disc list-inside text-gray-700 space-y-2">
+      <li><b>MSc Informatics</b> – Silesian University of Technology, Gliwice (2008–2010)</li>
+      <li><b>MSc Logistics</b> – University of Economics, Katowice (2008–2010)</li>
+      <li><b>Engineer Mathematics</b> – Silesian University of Technology, Gliwice (2004–2008)</li>
+    </ul>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certs" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-blue-800 mb-6 border-b-2 border-blue-700 inline-block">Certifications & Courses</h2>
+      <div class="grid md:grid-cols-2 gap-6 text-gray-700">
+        <ul class="list-disc list-inside">
+          <li>.NET for Advanced</li>
+          <li>SQL Server 2008</li>
+          <li>PL/SQL</li>
+          <li>Effective Team Management</li>
+          <li>SCRUM for Advanced</li>
+          <li>VECTOR Cast C++</li>
+          <li>PRINCE2</li>
+          <li>ERTMS/ETCS (3 courses)</li>
+        </ul>
+        <ul class="list-disc list-inside">
+          <li>MCSA: Web Application</li>
+          <li>MS 70-480 / MCP 70-486</li>
+          <li>PRINCE2 Practitioner & Foundation</li>
+          <li>telc GmbH – B2 (English)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-blue-800 mb-6 border-b-2 border-blue-700 inline-block">Contact</h2>
+    <p class="text-gray-700 mb-2">📍 Katowice, Poland</p>
+    <p class="text-gray-700 mb-2">📞 +48 607 070 825</p>
+    <p class="text-gray-700 mb-6">📧 <a href="mailto:michael.jedruch@gmail.com" class="text-blue-700 hover:underline">michael.jedruch@gmail.com</a></p>
+    <a href="#home" class="bg-blue-700 text-white px-6 py-3 rounded-xl hover:bg-black transition">Back to Top</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gradient-to-r from-blue-700 to-black text-white py-6 text-center">
+    <p>© 2025 Michał Jędruch – All Rights Reserved</p>
+  </footer>
+</body>
+</html>
